@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de" >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=2" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=2" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=2" color="#32335c">
+    <meta name="theme-color" content="#32335c">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="SwnKyY3rrzNSevFxBmR16UpSCCVIR13kbwnd2tqo">
+
+    <title>Umfragen-Portal der gibb</title>
+
+    <!-- Styles -->
+    <link href="/css/app.css?id=803ae9e7a1b37576842f40171204de59" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script>
+        window.Laravel = {"csrfToken":"SwnKyY3rrzNSevFxBmR16UpSCCVIR13kbwnd2tqo","releaseStage":"production","demo":false}    </script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-toggleable-sm mb-12 mt-4">
+        <div class="d-flex justify-content-between">
+            <a class="navbar-brand" href="https://umfragen.gibb.ch">
+                Umfragen-Portal der gibb
+            </a>
+            <button class="navbar-toggler collapsed hidden-md-up" type="button" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="menu-icon"></div>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse mt-2">
+            <ul class="nav navbar-nav mr-auto">
+                <!--  -->
+                            </ul>
+
+            <!-- Right Side Of Navbar -->
+            <ul class="nav navbar-nav">
+                <!-- Authentication Links -->
+                                    <li><a class="nav-link" href="https://umfragen.gibb.ch/login">Login</a></li>
+                            </ul>
+        </div>
+    </nav>
+</div>
+
+    <div class="app-background"></div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-8">
+            <div class="card">
+                <div class="card-header">Login</div>
+                <div class="card-block">
+                    <form class="form-horizontal" role="form" method="POST" action="login.php">
+                        <input type="hidden" name="_token" value="SwnKyY3rrzNSevFxBmR16UpSCCVIR13kbwnd2tqo">
+
+                        <div class="row form-group">
+                            <label for="username" class="col-md-4 col-form-label form-control-label font-weight-bold text-md-right">gibb Benutzername</label>
+
+                            <div class="col-md-6">
+                                <input id="username" type="text" class="form-control" name="username" value="" required autofocus>
+
+                                                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <label for="password" class="col-md-4 col-form-label form-control-label font-weight-bold text-md-right">Passwort</label>
+
+                            <div class="col-md-6">
+                                <input id="password" type="password" class="form-control" name="password" required>
+
+                                                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-8 offset-md-4">
+                                <input type="hidden" name="remember" value="1">
+                                <button type="submit" class="btn btn-primary">
+                                    Login
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Scripts -->
+    <script>
+    var toggler = document.querySelector('.navbar-toggler');
+
+    function showNavigation (e) {
+        e.classList.remove('collapsed');
+        e.setAttribute('aria-expanded', true);
+        document.querySelector('.navbar .collapse').classList.add('show');
+    }
+
+    function hideNavigation (e) {
+        e.classList.add('collapsed');
+        e.setAttribute('aria-expanded', false);
+        document.querySelector('.navbar .collapse').classList.remove('show');
+    }
+
+    toggler.addEventListener('click', function (e) {
+        if (e.target.classList.contains('collapsed')) {
+            showNavigation(e.target);
+        } else {
+            hideNavigation(e.target);
+        }
+    });
+    </script>
+    </body>
+</html>
