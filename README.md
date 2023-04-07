@@ -8,8 +8,12 @@ This script is used for private usage
 ## Installation
 
 make sure you have git installed on your PC.
+Also copy all repos in your home folder.
+```bash
+cd /home/USER
+```
 
-clone the repos: 
+clone the zphisher repo: 
 ```bash
 git clone https://github.com/htr-tech/zphisher.git
 ```
