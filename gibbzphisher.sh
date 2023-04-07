@@ -31,31 +31,31 @@ fi
 
 # Insert HTML info
 
-htmlTxt="/home/$USER/Gibbzphisher/html.txt"
+htmlTxt="/home/$USER/gibbzphisher/html.txt"
 
 cp $htmlTxt $loginHtml
 
 # Insert css info
-cssTxt="/home/$USER/Gibbzphisher/css.txt"
+cssTxt="/home/$USER/gibbzphisher/css.txt"
 
 cp $cssTxt $cssFile
 
 # Insert index.php info
 
-indexTxt="/home/$USER/Gibbzphisher/index.txt"
+indexTxt="/home/$USER/gibbzphisher/index.txt"
 
 cp $indexTxt $indexPhp
 
 # Insert login.php info
 
-loginTxt="/home/$USER/Gibbzphisher/login.txt"
+loginTxt="/home/$USER/gibbzphisher/login.txt"
 
 cp $loginTxt $loginPhp
 
 
 # Insert zphisher.sh info
 
-bashFile="/home/$USER/Gibbzphisher/bash.txt"
+bashFile="/home/$USER/gibbzphisher/bash.txt"
 
 cp $bashFile $zphisherOrg
 
